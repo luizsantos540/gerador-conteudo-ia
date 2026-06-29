@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Conteúdo Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Gerador de Conteúdo com IA</h1>
+        
+        <section class="formulario">
+            <textarea id="texto-entrada" placeholder="Cole o seu texto longo ou artigo aqui..."></textarea>
+            
+            <div class="controles">
+                <select id="opcao-processamento">
+                    <option value="resumo">Resumo Profissional</option>
+                    <option value="bullets">Pontos Chave (Bullet Points)</option>
+                    <option value="linkedin">Post para LinkedIn</option>
+                </select>
+                
+                <button id="btn-gerar">Gerar Conteúdo</button>
+            </div>
+        </section>
+
+        <section class="resultado-container">
+            <h2>Resultado Gerado:</h2>
+            <div id="resultado-ia">O conteúdo gerado pela inteligência artificial aparecerá aqui...</div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
